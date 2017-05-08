@@ -6,6 +6,7 @@ if File.directory?(current_path)
       puts "found this is a gemspec project"
       if (load file)
         puts "load this develop gem to LOAD_PATH success"
+        require "#{file.split("/").last.gsub(".gemspec", "")}"
       else
         puts "load this develop gem to LOAD_PATH error"
       end
