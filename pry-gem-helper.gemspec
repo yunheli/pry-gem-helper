@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Will"]
   spec.email         = ["yh@fir.im"]
 
-  spec.summary       = ""
-  spec.description   = ""
+  spec.summary       = "pry gem helper"
+  spec.description   = "pry gem helper"
   spec.homepage      = ""
   spec.license       = "MIT"
 
